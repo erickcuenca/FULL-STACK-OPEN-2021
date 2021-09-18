@@ -1,0 +1,13 @@
+Browser -> HTTP POST: The browser will "POST" the text of the input-element to the server at the location of /exampleapp/notes -> Server
+
+Browser -> HTTP GET: The browser asks for the files in the server at the location of /exampleapp/notes. This is specifically asking for the entire new and updated website. It's basically refreshing the page with the updated information
+
+Server -> The server returns back the updated website -> Browser
+
+Browser -> HTTP GET: The browser requests for the CSS properties to format the page as well as the JS file to push back into the browser to implement in with the updated website
+
+Server -> The server sends back the JS and CSS files -> Browser
+
+Browser -> HTTP GET: browser asks for the JSON files thats stored all the notes from before and the newly added
+
+Server -> Sends back JSON file to fill the webpage with the updated notes that have been saved -> Browser

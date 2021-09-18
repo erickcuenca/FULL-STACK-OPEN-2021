@@ -1,0 +1,1 @@
+Browser -> HTTP POST: The browser "POSTS" JSON data of the new note that was saved to the server -> Server

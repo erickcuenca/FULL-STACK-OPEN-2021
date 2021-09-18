@@ -1,0 +1,7 @@
+Browser -> asks for the HTML of the page from -> Server
+Server -> sends HTML back to browser -> Browser
+Browser -> asks for CSS file -> Server
+Browser -> asks for the JS file as well -> Server
+Server -> sends JS file -> Browser
+Browser -> requests for the JSON data of all the notes -> Server
+Server -> sends back JSON data to -> Browser
